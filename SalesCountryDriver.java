@@ -1,3 +1,6 @@
+ssh -i file.pem ubuntu@file
+scp -i ~/Downloads/file.pem local_image_file user@ec2_elastic_ip:/home/user/images/
+$ scp -i ec2_instance_B.pem file.zip ubuntu@13.232.43.90
 
 package SalesCountry;
 
